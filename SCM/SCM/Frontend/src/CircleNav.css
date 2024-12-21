@@ -1,0 +1,21 @@
+/* This section styles the container of the circular navigation buttons. It uses Flexbox to align the child elements (buttons) in a row and evenly distributes the space among them, with a consistent gap between each item. */
+.circle-nav-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+}
+
+/* This section applies styles to each circular navigation button. Each button is designed to be a circle with text centered both vertically and horizontally. The text is styled to be bold and white with no underline to resemble more of a button than a hyperlink. */
+.circle-nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 60px; 
+  height: 60px; 
+  text-align: center;
+  line-height: 60px; 
+}
